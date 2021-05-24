@@ -1,0 +1,30 @@
+{
+  // Compile using a remote version instead of the current one, for example: 'latest' or 'v0.4.3+commit.2353da71'
+  // "solidity.compileUsingRemoteVersion": "v0.4.21+commit.dfe3193c",
+  "solidity.compileUsingRemoteVersion": "",
+  "solidity.packageDefaultDependenciesContractsDirectory": "",
+  "solidity.packageDefaultDependenciesDirectory": "node_modules",
+  "files.associations": {
+    "*.sol": "solidity"
+  },
+  // Solium linting validation rules
+  "solidity.linter": "solium",
+  "solidity.soliumRules": {
+    "imports-on-top": 0,
+    "variable-declarations": 0,
+    "indentation": ["off", 2],
+    "quotes": ["off", "double"]
+  },
+  "editor.rulers": [80],
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "solidity.formatter": "prettier",
+  "solidity.defaultCompiler": "embedded",
+  "solidity.enabledAsYouTypeCompilationErrorCheck": false,
+  "[solidity]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

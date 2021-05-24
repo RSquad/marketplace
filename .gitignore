@@ -6,6 +6,11 @@
 # Node artifact files
 node_modules/
 dist/
+sbin/
+ton-packages/
+bin/
+.vscode/
+package-lock.json
 
 # Compiled Java class files
 *.class
@@ -47,4 +52,5 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
+.env
 
